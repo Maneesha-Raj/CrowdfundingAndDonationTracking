@@ -1,0 +1,11 @@
+[
+    {
+        "name": "CrowdfundCollection",
+        "policy": "OR('DonorsMSP.member', 'AuthoritiesMSP.member')",
+        "requiredPeerCount": 1,
+        "maxPeerCount": 1,
+        "blockToLive": 100,
+        "memberOnlyRead": true,
+        "memberOnlyWrite": true
+    }
+]
